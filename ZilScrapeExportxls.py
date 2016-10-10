@@ -28,7 +28,7 @@ def work():
                 work()
             else:
                 # write empty .xlsx and move on
-                f = str(z) + '.xlsx'
+                f = str(z) + '.txt'
                 xbook = xlsxwriter.Workbook(f)
                 xsheet = xbook.add_worksheet(str(z))
                 xbook.close()

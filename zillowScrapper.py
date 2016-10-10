@@ -1,7 +1,7 @@
 
 
 from bs4 import BeautifulSoup
-import urllib2, time, sys, os.path
+import re, urllib2, time, sys, os.path
 from multiprocessing import Pool
 from multiprocessing.dummy import Pool as ThreadPool
 
